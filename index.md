@@ -23,7 +23,7 @@ User: Not everyone. But a lot of people do, especially the young. It's a fine pl
 	<thead>
 		<tr>
 			<th style="text-align: center">Ground Truth</th>
-			<th style="text-align: center">UDSM </th>
+			<th style="text-align: center">USDM </th>
 			<th style="text-align: center">From Scratch</th>
 			<th style="text-align: center">Cascaded</th>
 			<th style="text-align: center">SpeechGPT</th>
@@ -53,7 +53,7 @@ User: I’m very well, Thank you. And you?
 	<thead>
 		<tr>
 			<th style="text-align: center">Ground Truth</th>
-			<th style="text-align: center">UDSM </th>
+			<th style="text-align: center">USDM </th>
 			<th style="text-align: center">From Scratch</th>
 			<th style="text-align: center">Cascaded</th>
 			<th style="text-align: center">SpeechGPT</th>
@@ -83,7 +83,7 @@ User: Yes, do you like it?
 	<thead>
 		<tr>
 			<th style="text-align: center">Ground Truth</th>
-			<th style="text-align: center">UDSM </th>
+			<th style="text-align: center">USDM </th>
 			<th style="text-align: center">From Scratch</th>
 			<th style="text-align: center">Cascaded</th>
 			<th style="text-align: center">SpeechGPT</th>
@@ -116,7 +116,7 @@ Text to generate: **Hi George! It's good to see you!**
 	<thead>
 		<tr>
 			<th style="text-align: center">Ground Truth</th>
-			<th style="text-align: center">UDSM </th>
+			<th style="text-align: center">USDM </th>
 			<th style="text-align: center">From Scratch</th>
 			<th style="text-align: center">Cascaded</th>
 			<th style="text-align: center">SpeechGPT</th>
@@ -148,7 +148,7 @@ Text to generate: **I am very happy, too. It was a big game and I won.**
 	<thead>
 		<tr>
 			<th style="text-align: center">Ground Truth</th>
-			<th style="text-align: center">UDSM </th>
+			<th style="text-align: center">USDM </th>
 			<th style="text-align: center">From Scratch</th>
 			<th style="text-align: center">Cascaded</th>
 			<th style="text-align: center">SpeechGPT</th>
@@ -180,7 +180,7 @@ Text to generate: **They look really good on you. They look comfortable too.**
 	<thead>
 		<tr>
 			<th style="text-align: center">Ground Truth</th>
-			<th style="text-align: center">UDSM </th>
+			<th style="text-align: center">USDM </th>
 			<th style="text-align: center">From Scratch</th>
 			<th style="text-align: center">Cascaded</th>
 			<th style="text-align: center">SpeechGPT</th>
