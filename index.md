@@ -1,8 +1,13 @@
 # Unified Speech-Text Pretraining for Spoken Dialog Modeling
 
 ## Abstract
-
-TO DO
+While recent work shows promising results in expanding the capabilities of large language models (LLM) to directly understand and synthesize speech, an LLM-based strategy for modeling spoken dialogs remains elusive and calls for further investigation.
+This work proposes an extensive speech-text LLM framework, named the Unified Spoken Dialog Model (USDM), to generate coherent spoken responses with organic prosodic features relevant to the given input speech without relying on automatic speech recognition (ASR) or text-to-speech (TTS) solutions.
+Our approach employs a multi-step speech-text inference scheme that leverages chain-of-reasoning capabilities exhibited by the underlying LLM.
+We also propose a generalized speech-text pretraining scheme that helps with capturing cross-modal semantics.
+Automatic and human evaluations show that the proposed approach is effective in generating natural-sounding spoken responses, outperforming both prior and cascaded baselines.
+Detailed comparative studies reveal that, despite the cascaded approach being stronger in individual components, the joint speech-text modeling improves robustness against recognition errors and improves speech quality. 
+Demo is available at https://anonymoususdm.github.io.
 
 
 ## Model Comparison (DailyTalk)
