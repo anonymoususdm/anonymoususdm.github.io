@@ -10,6 +10,76 @@ Detailed comparative studies reveal that, despite the cascaded approach being st
 Demo is available at https://anonymoususdm.github.io.
 
 
+## Real-World Scenarios 
+
+**We used USDM trained on DailyTalk.**
+
+#### Sample 1
+
+[Youtube Interview: 01:09.8 ~ 01:14.0](https://www.youtube.com/watch?v=f5NJQiY9AuY)
+
+<audio controls>
+  <source src="wavs/real_world_scenarios/1_user.wav" type="audio/wav">
+</audio>
+A: And you were 21 when you became a billionaire. Is that right?<br>
+
+**Generated Spoken Response**
+
+<audio controls>
+  <source src="wavs/real_world_scenarios/1_usdm.wav" type="audio/wav">
+</audio>
+<br>
+
+#### Sample 2
+
+[Youtube Interview: 04:05.0 ~ 04:08.5](https://www.youtube.com/watch?v=f5NJQiY9AuY)
+
+<audio controls>
+  <source src="wavs/real_world_scenarios/2_user.wav" type="audio/wav">
+</audio>
+A: Um, so what is your main focus right now?<br>
+
+**Generated Spoken Response**
+
+<audio controls>
+  <source src="wavs/real_world_scenarios/2_usdm.wav" type="audio/wav">
+</audio>
+<br>
+
+#### Sample 3
+
+[Youtube Interview: 04:22.1 ~ 04:24.4](https://www.youtube.com/watch?v=3dZ2sYvpjCg&t=91s)
+
+<audio controls>
+  <source src="wavs/real_world_scenarios/3_user.wav" type="audio/wav">
+</audio>
+A: Have you always been a gifted speaker? <br>
+
+**Generated Spoken Response**
+
+<audio controls>
+  <source src="wavs/real_world_scenarios/3_usdm.wav" type="audio/wav">
+</audio>
+<br>
+
+#### Sample 4
+
+[Youtube Interview: 01:26.4 ~ 01:31.3](https://www.youtube.com/watch?v=3dZ2sYvpjCg&t=91s)
+
+<audio controls>
+  <source src="wavs/real_world_scenarios/4_user.wav" type="audio/wav">
+</audio>
+A: Now, is it true that you've gone to the same barbershop, is it true, here in Chicago, for 20 years?<br>
+
+**Generated Spoken Response**
+
+<audio controls>
+  <source src="wavs/real_world_scenarios/4_usdm.wav" type="audio/wav">
+</audio>
+<br>
+
+
+
 ## Model Comparison (DailyTalk)
 
 **All samples for DailyTalk resampled to 16kHz.**
