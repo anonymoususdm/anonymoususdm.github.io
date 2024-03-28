@@ -15,7 +15,6 @@ Demo is available at https://anonymoususdm.github.io.
 **We used USDM trained on DailyTalk.**
 
 #### Sample 1
-
 [Youtube Interview: 01:09.8 ~ 01:14.0](https://www.youtube.com/watch?v=f5NJQiY9AuY)
 
 <audio controls>
@@ -31,7 +30,6 @@ A: And you were 21 when you became a billionaire. Is that right?<br>
 <br>
 
 #### Sample 2
-
 [Youtube Interview: 04:05.0 ~ 04:08.5](https://www.youtube.com/watch?v=f5NJQiY9AuY)
 
 <audio controls>
@@ -47,7 +45,6 @@ A: Um, so what is your main focus right now?<br>
 <br>
 
 #### Sample 3
-
 [Youtube Interview: 04:22.1 ~ 04:24.4](https://www.youtube.com/watch?v=3dZ2sYvpjCg&t=91s)
 
 <audio controls>
@@ -63,7 +60,6 @@ A: Have you always been a gifted speaker? <br>
 <br>
 
 #### Sample 4
-
 [Youtube Interview: 01:26.4 ~ 01:31.3](https://www.youtube.com/watch?v=3dZ2sYvpjCg&t=91s)
 
 <audio controls>
