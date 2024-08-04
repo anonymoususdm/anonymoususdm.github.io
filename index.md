@@ -141,9 +141,9 @@ Input User Audio
 
 User (Ground Truth): I know that just does not make sense at all. I wonder why they do that <br>
 
-<br>**Generated Text Response (Angry)**: <Angry> They are the highest paid athletes in the world by annual salary. They also have the most expensive team in the NFL. Yet they don't have the best record in the league.
-<br>**Generated Text Response (Neutral)**: <Neutral> Who knows? It's been around since the sixties. Maybe it was easier to control the women back then?
-<br>**Generated Text Response (Surprised, FAILURE CASE)**: <Surprised> The Saints cheerleaders in New Orleans have a separate restaurant than the players. They also have a separate room at the stadium to eat in.
+<br>**Generated Text Response (Angry)**: \<Angry\> They are the highest paid athletes in the world by annual salary. They also have the most expensive team in the NFL. Yet they don't have the best record in the league...
+<br>**Generated Text Response (Neutral)**: \<Neutral\> Who knows? It's been around since the sixties. Maybe it was easier to control the women back then?
+<br>**Generated Text Response (Surprised, FAILURE CASE)**: \<Surprised\> The Saints cheerleaders in New Orleans have a separate restaurant than the players. They also have a separate room at the stadium to eat in.
 
 <table>
    <thead>
