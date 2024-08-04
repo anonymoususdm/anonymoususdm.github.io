@@ -8,6 +8,7 @@ Recent work shows promising results in expanding the capabilities of large langu
 ## Additional Samples For Rebuttal 
 ### Some listening examples of zero-shot TTS are recommeneded (Reviewer 4xzH)
 **We performed zero-shot TTS using the emotional dataset from the TextrolSpeech dataset, which was unseen during training, as the reference audio.**
+
 <details>
 <summary><span style="color:red">Click here to view the transcript. </span></summary>
 Sample 1 Transcript: it is our doom the great sacrifice at the end of the dark season <br>
@@ -20,6 +21,7 @@ Sample 7 Transcript: dick stepped into the narrow path cut in the side of the ra
 Sample 8 Transcript: but were to be on their guard <br>
 Sample 9 Transcript: it was as if the good god himself intervened to save you <br>
 </details>
+
 <table>
 	<thead>
 		<tr>
