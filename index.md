@@ -5,6 +5,164 @@ Recent work shows promising results in expanding the capabilities of large langu
 
 ---
 
+## Additional Samples For Rebuttal 
+### Some listening examples of zero-shot TTS are recommeneded (Reviewer 4xzH)
+**We performed zero-shot TTS using the emotional dataset from the TextrolSpeech dataset, which was unseen during training, as the reference audio.**
+<details>
+<summary><span style="color:red">Click here to view the transcript. </span></summary>
+Sample 1 Transcript: it is our doom the great sacrifice at the end of the dark season <br>
+Sample 2 Transcript: it was as if the good god himself intervened to save you <br>
+Sample 3 Transcript: you are not going in blind <br>
+Sample 4 Transcript: sending him into panic stricken flight <br>
+Sample 5 Transcript: i looked for some great change <br>
+Sample 6 Transcript: dick stepped into the narrow path cut in the side of the ravine and inhaled more draughts of the fresh air <br>
+Sample 7 Transcript: dick stepped into the narrow path cut in the side of the ravine and inhaled more draughts of the fresh air <br>
+Sample 8 Transcript: but were to be on their guard <br>
+Sample 9 Transcript: it was as if the good god himself intervened to save you <br>
+</details>
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center"></th>
+			<th style="text-align: center">Sample 1</th>
+			<th style="text-align: center">Sample 2</th>
+			<th style="text-align: center">Sample 3</th>
+			<th style="text-align: center">Sample 4</th>
+			<th style="text-align: center">Sample 5</th>
+			<th style="text-align: center">Sample 6</th>
+			<th style="text-align: center">Sample 7</th>
+			<th style="text-align: center">Sample 8</th>
+			<th style="text-align: center">Sample 9</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th style="text-align: center">Reference</th>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/1_ref.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/2_ref.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/3_ref.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/4_ref.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/5_ref.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/6_ref.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/7_ref.wav" type="audio/wav"></audio></td>
+			<th style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/8_ref.wav" type="audio/wav"></audio></td>
+			<th style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/9_ref.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr>
+			<th style="text-align: center">Generated Sample</th>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/1_gen.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/2_gen.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/3_gen.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/4_gen.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/5_gen.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/6_gen.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/7_gen.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/8_gen.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/9_gen.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+<br>
+
+### Emotional Control Exploration (Reviewer yvFi)
+**We fine-tuned USDM using the MultiDialog dataset. To add emotion controllability, we modified our template from speech1 -> text1 -> text2 -> speech2 to speech1 -> text1 \<emotion1\> -> \<emotion2\> text2 -> speech2. Emotion control is achieved by setting \<emotion2\> to our desired emotion during inference.** <br>
+
+**Upon our review, we found that MultiDialog contains many instances where the speech and ground truth emotion labels are not well aligned, or the emotion labels are only weakly reflected in the speech. Currently, the only publicly available dialog dataset we can explore the possibility of emotional control is MultiDialog, so we used it to demonstrate the potential of our model. We ask for your understanding if the emotions in the generated samples appear subtle.**
+
+#### Sample 1
+Input User Audio
+<audio controls>
+  <source src="wavs/Multidialog_model_generated/1_user.wav" type="audio/wav">
+</audio>
+
+User (Ground Truth): what was the score to that eighty - zero?<br>
+
+<br>**Generated Text Response (Surprised)**: \<Surprised\> Wow! I haven't heard a score like that since World War two.
+<br>**Generated Text Response (Sad)**: \<Sad\> What a score! I wish I could have been the one to receive that payout!
+<br>**Generated Text Response (Disgusted)**: \<Disgusted\> Something like that! How can a team not score for over four hours?
+
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">Surprised </th>
+			<th style="text-align: center">Sad</th>
+			<th style="text-align: center">Disgusted</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Multidialog_model_generated/1_surprised.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Multidialog_model_generated/1_sad.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Multidialog_model_generated/1_disgusted.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+<br>
+
+#### Sample 2
+Input User Audio
+<audio controls>
+  <source src="wavs/Multidialog_model_generated/3_user.wav" type="audio/wav">
+</audio>
+
+User (Ground Truth): Yeah I guess. How about that seventies show, did you ever watch it? <br>
+
+<br>**Generated Text Response (Happy)**: \<Happy\> I used to watch it all the time when I was a kid. I love Jim Carrey and the role he played in it.
+<br>**Generated Text Response (Sad)**: \<Sad\> I used to watch it all the time and it's sad to think that there will be no more new episodes.
+<br>**Generated Text Response (Fearful)**: \<Fearful\> I remember it being on, we watched a season or two but lost interest in later shows. This is scary: Netflix has one hundred and fifty movies with a one hundred percent rating on Rotten Tomatoes. What's with Netflix? Are they a monster?
+
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">Happy </th>
+			<th style="text-align: center">Sad</th>
+			<th style="text-align: center">Fearful</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Multidialog_model_generated/3_happy.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Multidialog_model_generated/3_sad.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Multidialog_model_generated/3_fearful.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+<br>
+
+#### Sample 3
+Input User Audio
+<audio controls>
+  <source src="wavs/Multidialog_model_generated/2_user.wav" type="audio/wav">
+</audio>
+
+User (Ground Truth): I know that just does not make sense at all. I wonder why they do that <br>
+
+<br>**Generated Text Response (Angry)**: \<Angry\> They are the highest paid athletes in the world by annual salary. They also have the most expensive team in the NFL. Yet they don't have the best record in the league...
+<br>**Generated Text Response (Neutral)**: \<Neutral\> Who knows? It's been around since the sixties. Maybe it was easier to control the women back then?
+<br>**Generated Text Response (Surprised, FAILURE CASE)**: \<Surprised\> The Saints cheerleaders in New Orleans have a separate restaurant than the players. They also have a separate room at the stadium to eat in.
+
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">Angry</th>
+			<th style="text-align: center">Neutral</th>
+			<th style="text-align: center">Surprised</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Multidialog_model_generated/2_angry.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Multidialog_model_generated/2_neutral.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Multidialog_model_generated/2_surprised.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+<br>
+
+---
+
 ## Additional Samples For Various Scenarios (Appendix A.1)
 ### Expressive Spoken Dialog Dataset (Expresso)
  **Since there were no transcripts for Expresso, we used _whisper-large-v3_ to obtain transcripts corresponding to the dataset and used them for training.**
