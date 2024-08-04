@@ -10,7 +10,7 @@ Recent work shows promising results in expanding the capabilities of large langu
 **We performed zero-shot TTS using the emotional dataset from the TextrolSpeech dataset, which was unseen during training, as the reference audio.**
 
 <details>
-<summary><span style="color:red">Click here to view the transcript. </span></summary>
+<summary><span style="color:black">Click here to view the transcript. </span></summary>
 Sample 1 Transcript: it is our doom the great sacrifice at the end of the dark season <br>
 Sample 2 Transcript: it was as if the good god himself intervened to save you <br>
 Sample 3 Transcript: you are not going in blind <br>
