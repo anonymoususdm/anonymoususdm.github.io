@@ -22,51 +22,6 @@ Sample 8 Transcript: but were to be on their guard <br>
 Sample 9 Transcript: it was as if the good god himself intervened to save you <br>
 </details>
 
-<table>
-	<thead>
-		<tr>
-			<th style="text-align: center"></th>
-			<th style="text-align: center">Sample 1</th>
-			<th style="text-align: center">Sample 2</th>
-			<th style="text-align: center">Sample 3</th>
-			<th style="text-align: center">Sample 4</th>
-			<th style="text-align: center">Sample 5</th>
-			<th style="text-align: center">Sample 6</th>
-			<th style="text-align: center">Sample 7</th>
-			<th style="text-align: center">Sample 8</th>
-			<th style="text-align: center">Sample 9</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th style="text-align: center">Reference</th>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/1_ref.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/2_ref.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/3_ref.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/4_ref.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/5_ref.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/6_ref.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/7_ref.wav" type="audio/wav"></audio></td>
-			<th style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/8_ref.wav" type="audio/wav"></audio></td>
-			<th style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/9_ref.wav" type="audio/wav"></audio></td>
-		</tr>
-	</tbody>
-	<tbody>
-		<tr>
-			<th style="text-align: center">Generated Sample</th>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/1_gen.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/2_gen.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/3_gen.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/4_gen.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/5_gen.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/6_gen.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/7_gen.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/8_gen.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Emotional_dataset_zero-shot/9_gen.wav" type="audio/wav"></audio></td>
-		</tr>
-	</tbody>
-</table>
-<br>
 
 
 ---
