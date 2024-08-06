@@ -71,7 +71,7 @@ Sample 9 Transcript: it was as if the good god himself intervened to save you <b
 ### Emotional Control Exploration (Reviewer yvFi)
 **We fine-tuned USDM using the MultiDialog dataset. To add emotion controllability, we modified our template from speech1 -> text1 -> text2 -> speech2 to speech1 -> text1 \<emotion1\> -> \<emotion2\> text2 -> speech2. Emotion control is achieved by setting \<emotion2\> to our desired emotion during inference.** <br>
 
-**Upon our review, we found that MultiDialog contains many instances where the speech and ground truth emotion labels are not well aligned, or the emotion labels are only reflected in the text, which hinders the model's ability to accurately reflect emotions in the generated samples. Currently, the only publicly available dialog dataset we can explore the possibility of emotional control is MultiDialog, so we used it to demonstrate the potential of our model. We ask for your understanding if the emotions in the generated samples appear subtle.**
+**Upon our review, we found that MultiDialog contains many instances where the speech and ground truth emotion labels are not well aligned, or the emotion labels are only reflected in the text, which hinders the model's ability to accurately reflect emotions in the generated spoken responses. Currently, the only publicly available dialog dataset we can explore the possibility of emotional control is MultiDialog, so we used it to demonstrate the potential of our model. We ask for your understanding if the emotions in the generated samples appear subtle.**
 
 #### Sample 1
 Input User Audio
